@@ -76,7 +76,10 @@ nav ul li a{
   font-size: 1.2rem;
   font-weight: 600;
 }
-
+nav ul a:hover{
+  color: #ea4b4b;
+  transition: .5s ease-in-out;
+}
 .banner-text {
   width: 75%;
   padding-top: 12%;
@@ -136,15 +139,15 @@ nav ul li a{
 }
 #other{
   padding: 10px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
-    color: #e6e4e4;
+    color: rgba(255,255,255,0.2);
     margin-bottom: 20px;
     text-align: center;
     outline: none;
     text-transform: capitalize;
     border: none;
-    border-bottom: 1px solid #b7b7b7;
+    border-bottom: 1px solid #e0e0e0;
     width: 100%;
 }
 .hori-line {
@@ -301,7 +304,20 @@ form{
   color: #fff;
   font-size: 1rem;
   background-color: #ea4b4b;
-  border: 0 ;
   border-radius: 0px;
+  border: none;
+  outline: none;
   /* display: inline-block; */
+}
+
+#email{
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: 15px;
+}
+.subsbtn:hover{
+  background-color: #d67777be;
+  transition: .5s ease-in-out;
+  cursor: pointer;
 }
