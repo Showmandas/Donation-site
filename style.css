@@ -46,7 +46,7 @@
   background-size: cover;
   background-position: center;
   margin-bottom: 100px;
-  /* position: fixed; */
+  position: relative;
 }
 .signbtn{
   padding: 14px 25px;
@@ -74,6 +74,8 @@ nav{
   align-items: center;
   background-color: #f6efe3;
   position: fixed;
+  top:0;
+  left: 0;
 }
 nav ul{
   display: flex;
